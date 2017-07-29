@@ -1,0 +1,32 @@
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\bin\full project.dll.config
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\bin\full project.dll
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\bin\full project.pdb
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\obj\Debug\full project.dll
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\obj\Debug\full project.pdb
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\obj\Debug\full project.csprojResolveAssemblyReference.cache
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\bin\CKEditor.NET.dll
+C:\Users\roy\documents\visual studio 2013\Projects\full project\full project\bin\CKEditor.NET.pdb
+E:\full project\full project\bin\full project.dll.config
+E:\full project\full project\bin\full project.dll
+E:\full project\full project\bin\full project.pdb
+E:\full project\full project\obj\Debug\full project.dll
+E:\full project\full project\obj\Debug\full project.pdb
+E:\full project\full project\obj\Debug\full project.csprojResolveAssemblyReference.cache
+E:\final presentation\full project\full project\obj\Debug\full project.dll
+E:\final presentation\full project\full project\obj\Debug\full project.pdb
+E:\final presentation\full project\full project\bin\full project.dll.config
+E:\final presentation\full project\full project\bin\full project.dll
+E:\final presentation\full project\full project\bin\full project.pdb
+E:\final presentation\full project\full project\obj\Debug\full project.csprojResolveAssemblyReference.cache
+E:\akla akash\final presentation\full project\full project\bin\full project.dll.config
+E:\akla akash\final presentation\full project\full project\bin\full project.dll
+E:\akla akash\final presentation\full project\full project\bin\full project.pdb
+E:\akla akash\final presentation\full project\full project\obj\Debug\full project.dll
+E:\akla akash\final presentation\full project\full project\obj\Debug\full project.pdb
+E:\akla akash\final presentation\full project\full project\obj\Debug\full project.csprojResolveAssemblyReference.cache
+E:\akla akash\full project\full project\bin\full project.dll.config
+E:\akla akash\full project\full project\bin\full project.dll
+E:\akla akash\full project\full project\bin\full project.pdb
+E:\akla akash\full project\full project\obj\Debug\full project.dll
+E:\akla akash\full project\full project\obj\Debug\full project.pdb
+E:\akla akash\full project\full project\obj\Debug\full project.csprojResolveAssemblyReference.cache

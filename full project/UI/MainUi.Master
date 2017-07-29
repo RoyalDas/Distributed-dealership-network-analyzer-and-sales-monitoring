@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainUi.Master.cs" Inherits="full_project.UI.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="../bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../Content/animate.min.css" rel="stylesheet" />
+    <link href="../My%20Css/StyleSheet1.css" rel="stylesheet" />
+    <link href="../My%20Css/Footer.css" rel="stylesheet" />
+    <%--<link href="../My%20Css/Style.css" rel="stylesheet" />--%>
+     <asp:contentPlaceholder id="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div>
+            <div class="container-fluid top_bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                        </div>
+                        <div class="col-sm-9 text-right e content-info">
+                            <span class="glyphicon glyphicon-envelope"></span>royalnstu@gmail.com,
+                <span class="glyphicon glyphicon-earphone"></span>01742479688
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr />
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="../Images/logo.jpg" class="img img-responsive" />
+                    </div>
+                    <div class="col-sm-9 my-manu">
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="mynavbar">
+                                <ul class="nav navbar-nav pull-right">
+                                    <li class="active"><a href="Home.aspx">Home</a></li>
+                                    <li><a href="GiveSalesUpdate.aspx">Give Sales Update</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" runat="server" id="AdminActivityLi">Admins Activity<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="Registration.aspx">Registration</a></li>
+                                            <li><a href="Update Product amount.aspx">Enrich stock centre</a></li>
+                                            <li><a href="Insert New Product.aspx">Add New Product</a></li>
+                                            <li><a href="Update Product info.aspx">Edit Product Info</a></li>
+                                            <li><a href="Distribute Products by areaname.aspx">Distribute  Product</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sales Record<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-header">Todays</li>
+                                            <li><a href="view Todays all  salesrecord.aspx">All Sales Record </a></li>
+                                            <li><a href="SalesRecordbyArea.aspx">Specific Area Sales Record</a></li>
+                                            <li><a href="view fixed product sales record of all area.aspx">Specific Product Sales Record of all area</a></li>
+                                            <li class="dropdown-header">Previous</li>
+                                            <li><a href="view product sales record within a time limit.aspx">Sales Record of a time limit</a></li>
+                                            <li><a href="view previous sales update by areaname.aspx">Area Sales Record Of a Date</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Information<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="View dealers information.aspx">View Dealers Information</a></li>
+                                            <li><a href="View Company Stock Center.aspx">View Comppany Stock Center</a></li>
+                                            <li><a href="View Product Details of area.aspx">Product information of area</a></li>
+                                            <li><a href="Send Email to dealers.aspx">Send Mail</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Setting<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="Change Password manually.aspx">Change Password</a></li>
+
+                                            <li><a href="Log Out.aspx">Logout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <hr />
+
+    </form>
+   <div class="container"></div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <p>
+                    Automation
+                </p>
+            </div>
+            <div class="bottom-footer">
+                <div class="col-md-5">
+                    @All rights reserved by royal das
+                </div>
+                <div class="col-md-7">
+                    <ul class="footer-nav">
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="view Todays all  salesrecord.aspx">View today's all Sales record</a></li>
+                        <li><a href="Log Out.aspx">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../Jquery/jquery-3.1.1.js"></script>
+    <script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+

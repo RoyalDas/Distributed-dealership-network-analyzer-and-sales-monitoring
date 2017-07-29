@@ -1,0 +1,24 @@
+﻿.top_bar {
+    background: #F26522;padding:5px 0px;
+}
+.social-icon {
+    margin-right: 5px;
+}
+.content-info {
+    color: #fff;font-size: 16px;
+}
+.my-manu {
+    margin-top: 27px;
+}
+.my-manu .navbar-default {
+    background: none;border: none;
+}
+.my-manu .navbar-nav .active a,.my-manu .navbar-nav .active a:hover {
+    background: #f26522;color: #fff;
+}
+.my-manu .navbar-nav li a:hover {
+    background: #f26522;color: #fff;
+}
+@media (max-width: 1200px){
+    .my-manu .pull-right{ float: none !important;}
+}

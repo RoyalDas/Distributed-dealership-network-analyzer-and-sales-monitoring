@@ -1,0 +1,39 @@
+﻿.container
+{
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 186px);
+    min-height: -moz-calc(100% - 186px);
+    min-height: calc(100% - 186px);
+}
+.site-footer {
+    background-color: #f26522;
+    color: #fff;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.bottom-footer {
+    border-top: 1px solid #b2b2b2;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #b2b2b2;
+}
+.footer-nav {
+    text-align: right;
+    list-style: none;
+     
+}
+.footer-nav li {
+    display: inline;
+    
+}
+.footer-nav li:not(:first-child):before {
+    content: '|';
+    padding: 0px 5px;
+}
+.footer-nav a {
+    color: #b2b2b2;
+}
+.footer-nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
